@@ -1,0 +1,534 @@
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin: 0px;
+    padding: 0;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    margin-top: 24px;
+    margin-bottom: 0%;
+    color: #222222;
+}
+
+h2 {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #222222;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    margin-top: 28px;
+    margin-bottom: 0px;
+    color: #222222;
+}
+
+h4 {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #222222;
+}
+
+h5 {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+p {
+    margin-top: 24px;
+    margin-bottom: 0%;
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #222222;
+}
+
+.white-text {
+    color:white
+}
+
+.footer-copyright {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+}
+
+header {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+}
+
+.navigation{
+    background-color: #fff;
+    padding: 0px 80px 6px 80px;
+    height: 80px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    z-index: 999;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.logo{
+    width: auto;
+    padding-top: 11px;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+body > header > nav > ul {
+    padding-right: 200px;
+}
+
+nav {
+    background-color: #fff;
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+    float: right;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 0px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav > ul > li > a {
+    color: #2E2F65;
+    line-height: 2em;
+    padding: 1.5em 1.5em;
+    text-decoration: none;
+}
+
+.navigation-item {
+    border: 1px solid #2E2F65;
+    opacity: 1;
+    border-radius: 3px;
+}
+
+.about, .skills-row, .photography-site, .work-grid {
+    margin: auto;
+}
+
+.about-content {
+    padding-top: 120px;
+    padding-bottom: 30px;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.about2 {
+    padding-left: 50px;
+    display: block;
+}
+
+body > section.heroimg > div > img {
+    margin-top: 20px;
+    width: 450px;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 48px;
+    gap: 10px;
+    background: #A63C9F;
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #A63C9F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+a, a:visited {
+    text-decoration: none;
+  }
+
+.photography-site img {
+    width: 75px;
+}
+
+.skills {
+    background-color: #EDEDED;
+}
+.skills-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 24px;
+}
+
+.tools-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ux-skillset-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hanken-grotesk-med {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #222222;
+}
+.photography-site {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 24px;
+}
+
+body > footer > img {
+    width: 100px;
+}
+
+footer {
+    background-color: #2E2F65;
+    display: flex;
+    flex-direction: column ;
+    align-items:center;
+    bottom: 0px;
+    padding-top: 24px;
+    padding-bottom: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-copyright-section {
+    color: #fff;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.connect-icons {
+    width: 89px;
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+}
+.connect-icons img {
+    width: 44px;
+    height: 44px;
+}
+
+
+/* Hero */
+
+#hero {
+    display: grid;
+    padding-top: 85px;
+    min-height: 600px;
+    height: 75vh;
+    grid-template-rows: 100%;
+}
+
+.hero-image {
+    background-image: url("../images/hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+}
+
+.hero-text {
+    text-align: left;
+    position: relative;
+    top: 50%;
+    left: 30%;
+    transform: translate(-30%, -50%);
+    padding-right: 400px;
+    padding-left: 150px;
+}
+
+.hero-text button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 48px;
+    gap: 10px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+.hero-text button:hover {
+    background-color: #A63C9F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.arrow {
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    margin-left: -20px;
+    width: 40px;
+}
+
+.bounceMe {
+    animation: bounceArrow .99s infinite;
+  }
+
+@keyframes bounceArrow {
+from {
+    margin-top: 550px;
+}
+50% {
+    margin-top: 555px;
+}
+to {
+    margin-top: 550px;
+}
+}
+
+/* Work/Case Studies */
+
+#work > h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.work-grid {
+    display: grid;
+    gap: 36px;
+}
+
+.case-study {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 36px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.case-study-rev {
+    display:flex;
+    flex-direction: row-reverse;
+    padding-left: 130px;
+    padding-right: 100px;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.case-study-image, .case-study-image-rev {
+    display: grid;
+    object-fit: cover;
+    width: 100%;
+    justify-content: center;
+}
+
+.case-study-content, .case-study-content-rev {
+    padding-left: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 44px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+      
+    header {
+        justify-content: flex-start;
+        align-content: center;
+    }
+
+    .inline-block {
+        display: flex;
+        justify-content: right;
+    }
+
+    nav {
+        float: right;
+        padding-left: none;
+        justify-content: right;
+    }
+
+    body > header > nav > ul {
+        padding-right: 0px;
+    }
+
+    nav ul {
+        font-size: 14px;
+        align-items: center;
+    }
+
+    .navigation {
+        padding: 0px 80px 6px 30px
+    }
+
+    #logo-image {
+        width: 50px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 16px;
+    }
+
+    .logo {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+
+    .hero-image {
+        background-image: url(../images/hero-small.png);
+    }
+
+    .hero-text {
+        text-align: left;
+        position: relative;
+        top: 45%;
+        left: 30%;
+        transform: translate(-30%, -50%);
+        padding-left: 30px;
+        padding-right: 15px;
+    }
+
+    .work-grid {
+        display: grid;
+    }
+    
+    .case-study {
+        display:flex;
+        flex-direction: column;
+        margin: auto;
+        padding-top: 0px;
+        padding-left: 20px;
+        padding-right: 15px;
+        padding-bottom: 8px;
+        justify-content: flex-start;
+    }
+
+    .case-study-rev {
+        display:flex;
+        flex-direction: column;
+        margin: auto;
+        padding-top: 0px;
+        padding-left: 20px;
+        padding-right: 15px;
+        padding-bottom: 8px;
+        justify-content: flex-start;
+    }
+    
+    .case-study-image, .case-study-image-rev {
+        object-fit: cover;
+        width: 100%;
+        justify-content: center;
+        max-width: 375px;
+    }
+
+    #work > div > div:nth-child(1) > div.case-study-image > img {
+        max-width: 300px;
+    }
+
+    #work > div > div:nth-child(2) > div.case-study-image-rev > img {
+        max-width: 300px;
+    }
+
+    #work > div > div:nth-child(3) > div.case-study-image > img {
+        max-width: 300px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 30px;
+        padding-right: 13px;
+    }
+
+    .about2 {
+        padding-left: 0px;
+    }
+
+    #holli-pic {
+        max-width: 95%;
+    }
+
+    .skills-row {
+        flex-direction: column;
+    }
+
+    }
