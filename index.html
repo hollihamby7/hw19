@@ -7,30 +7,30 @@
         <title>Holli Hamby Portfolio | Home</title>
         <link rel="icon" type="image/x-icon" href="images/favicon-holli.ico">
     </head>
-    <body>
-        <header class="navigation"> 
-            <a href=index.html class="inline-block logo"><img id="logo-image" src="images/logo-name.svg" alt="Holli Hamby logo" width="auto" height="63px"></a>
-            <nav class="inline-block">
-                <ul class="inline-block">
-                        <li class="navigation-item"><a href="index.html">WORK</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="resume.html">RESUME</a></li>
-                </ul>
-            </nav>
-        </header>
-    <section id="hero">
-        <div class="hero-image">
-            <div class="hero-text">
-                <h1 class="white-text">Hi, I'm Holli with an i.</h1>
-                <h3 class="white-text">As a UX/UI Designer, I am driven by a passion for crafting exceptional digital experiences that are both intuitive and impactful.</h3>
-                <br>
-                <a href="about.html"><button>Tell me more</button></a>
-                <br>
+        <body>
+            <header class="navigation"> 
+                <a href=index.html class="inline-block logo"><img id="logo-image" src="images/logo-name.svg" alt="Holli Hamby logo" width="auto" height="63px"></a>
+                <nav class="inline-block">
+                    <ul class="inline-block">
+                            <li class="navigation-item"><a href="index.html">WORK</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="resume.html">RESUME</a></li>
+                    </ul>
+                </nav>
+            </header>
+        <section id="hero">
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h1 class="white-text">Hi, I'm Holli with an i.</h1>
+                    <h3 class="white-text">As a UX/UI Designer, I am driven by a passion for crafting exceptional digital experiences that are both intuitive and impactful.</h3>
+                    <br>
+                    <a href="about.html"><button>Tell me more</button></a>
+                    <br>
+                </div>
+                <div class="arrow"><img class="bounceMe" src="images/arrow-down.svg"></div>
             </div>
-            <div class="arrow"><img class="bounceMe" src="images/arrow-down.svg"></div>
-        </div>
-    </section>
-    <section id="work">
+        </section>
+        <section id="work">
         <h1>Featured Work</h1>
         <div class="work-grid">
             <div class="case-study">
@@ -53,26 +53,28 @@
             </div>
         </div>
     </section>
-            <footer>
-            <img src="images/logo-initials.svg" alt="Holli Hamby"/>
-            <h3 class="white-text">Let's connect</h3>
-            <div class="connect-icons">
-                <a href="mailto:hollihamby@gmail.com" ><img src="images/icon-email-envelope.svg" ></a>
-                <a href="https://www.linkedin.com/in/hollihamby"><img src="images/icon-linkedin.svg" alt="Connect on LinkedIn"/></a>
-            <br>
-            </div>
-        </footer>
-        <footer class="footer-copyright-section"
-            <p class="footer-copyright">© Holli Hamby - All Rights Reserved</p>
-    </body>
-    <script>
-        // Create a media condition that targets viewports at least 768px wide
-        const mediaQuery = window.matchMedia('(max-width: 600px)')
-        // Check if the media query is true
-        if (mediaQuery.matches) {
-            // Then trigger an alert
-            document.getElementById("logo-image").src = "images/logo-initials.svg";
-        }
-    </script>
-    <script src="js/index.js"></script>
+                <footer>
+                <img src="images/logo-initials.svg" alt="Holli Hamby"/>
+                <h3 class="white-text">Let's connect</h3>
+                <div class="connect-icons">
+                    <a href="mailto:hollihamby@gmail.com" ><img src="images/icon-email-envelope.svg" ></a>
+                    <a href="https://www.linkedin.com/in/hollihamby"><img src="images/icon-linkedin.svg" alt="Connect on LinkedIn"/></a>
+                <br>
+                </div>
+            </footer>
+            <footer class="footer-copyright-section"
+                <p class="footer-copyright">© Holli Hamby - All Rights Reserved</p>
+        <script>
+            // Create a media condition that targets viewports at least 768px wide
+            const mediaQuery = window.matchMedia('(max-width: 600px)')
+            // Check if the media query is true
+            if (mediaQuery.matches) {
+                // Then trigger an alert
+                document.getElementById("logo-image").src = "images/logo-initials.svg";
+            }
+        </script>
+        <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+        <script src="js/index.js"></script>
+        <button id="backToTop" onclick="scrollToTop()">Top</button> 
+        </body>
 </html>

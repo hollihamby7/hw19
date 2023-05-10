@@ -73,8 +73,8 @@
         <section class="photography-site">
                 <img src="images/icon-camera.svg" alt="camera"/>
                 <h5 class="heading5">Did I mention I have a passion for photography too?</h5>
-                <button type="button" onclick="location.href='https://www.hollihambyphotography.com/'">View Site</button>
-        </section>
+                <button type="button" onclick="window.open('https://www.hollihambyphotography.com/', '_blank')">View Site</button>
+            </section>
         <footer>
             <img src="images/logo-initials.svg" alt="Holli Hamby"/>
             <h3 class="white-text">Let's connect</h3>
@@ -96,4 +96,7 @@
             document.getElementById("logo-image").src = "images/logo-initials.svg";
         }
     </script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script src="js/index.js"></script>
+    <button id="backToTop" onclick="scrollToTop()">Top</button>
 </html>
