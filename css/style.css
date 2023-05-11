@@ -149,6 +149,8 @@ nav > ul > li > a:hover {
 
 .about, .skills-row, .photography-site, .work-grid {
     margin: auto;
+    padding-left: 85px;
+    padding-right: 85px;
 }
 
 .about-content {
@@ -296,7 +298,7 @@ footer {
 }
 
 .hero-image {
-    background-image: url("../images/hero.png");
+    background-image: url("../images/hero2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -354,45 +356,51 @@ footer {
 
 @keyframes bounceArrow {
 from {
-    margin-top: 550px;
+    margin-top: 635px;
 }
 50% {
-    margin-top: 555px;
+    margin-top: 627px;
 }
 to {
-    margin-top: 550px;
+    margin-top: 635px;
 }
 }
 
 /* Work/Case Studies */
 
+#work {
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
 #work > h1 {
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 28px;
+    padding-top: 48px;
 }
 
 .work-grid {
     display: grid;
-    gap: 36px;
+    gap: 85px;
 }
 
 .case-study {
     display:grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 36px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
     justify-content: center;
-    column-gap: 50px;
+    column-gap: 36px;
 }
 
 .case-study-rev {
     display:flex;
     flex-direction: row-reverse;
-    padding-left: 130px;
-    padding-right: 100px;
+    padding-left: 13%;
+    padding-right: 10%;
     justify-content: center;
-    column-gap: 50px;
+    column-gap: 14px;
 }
 
 .case-study-image, .case-study-image-rev {
@@ -457,7 +465,7 @@ to {
     }
 
     .hero-image {
-        background-image: url(../images/hero-small.png);
+        background-image: url(../images/hero-small2.jpg);
     }
 
     .hero-text {
@@ -470,6 +478,24 @@ to {
         padding-right: 15px;
     }
 
+    
+    @keyframes bounceArrow {
+    from {
+        margin-top: 520px;
+    }
+    50% {
+        margin-top: 513px;
+    }
+    to {
+        margin-top: 520px;
+    }
+    }
+
+    #work, .about, .skills {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     .work-grid {
         display: grid;
     }
@@ -479,7 +505,7 @@ to {
         flex-direction: column;
         margin: auto;
         padding-top: 0px;
-        padding-left: 20px;
+        padding-left: 15px;
         padding-right: 15px;
         padding-bottom: 8px;
         justify-content: flex-start;
@@ -490,7 +516,7 @@ to {
         flex-direction: column;
         margin: auto;
         padding-top: 0px;
-        padding-left: 20px;
+        padding-left: 15px;
         padding-right: 15px;
         padding-bottom: 8px;
         justify-content: flex-start;
